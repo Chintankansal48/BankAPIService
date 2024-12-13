@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "caa36afc-adc6-46ae-8e20-a4322a7f4d80",
+		"name": "BankAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12630137"
+	},
+	"item": [
+		{
+			"name": "Get banks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/banks/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"banks",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get branch details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/branches/SBIN0050030/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"branches",
+						"SBIN0050030",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
